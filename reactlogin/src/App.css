@@ -1,0 +1,288 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #0070E0;
+  border-color: #0070E0;
+}
+
+span.RegTitle,.LoginTitle {
+    position: relative;
+    font-size: 25px;
+    line-height: 1.14286;
+    font-family: SharpGrotesk, Open Sans, sans-serif;
+    font-weight: 400;
+}
+
+.LoginTitle{
+    right: 0px;
+}
+
+.leftSection img {
+    width: 600px;
+    padding: 55px 0 0 0;
+}
+
+.btn-success.active, .btn-success:active, .show>.btn-success.dropdown-toggle {
+    background-color: #0070E0;
+    background-image: none;
+    border-color: #0070E0;
+}
+
+.btn-success.focus, .btn-success:focus {
+    box-shadow: 0 0 0 3px #0070E0;
+}
+
+.leftSection {
+  width: 35%;
+  margin: 50px 0px 0 0;
+  float: left;
+}
+
+.rightSection {
+    width: 65%;
+    margin: 100px 0px 0 0;
+    float: left;
+}
+
+
+.login{
+    margin-bottom: 10px;
+    font-size: 25px;
+    line-height: 1.14286;
+    font-family: SharpGrotesk, Open Sans, sans-serif;
+    font-weight: 400;
+    border: none;
+    background: none;
+
+}
+
+.login:focus, .login:hover,.closeButton:focus,.closeButton:hover{
+    border-bottom:1px solid black;
+
+}
+
+.dropboxlogo {
+    width: 100%;
+}
+
+.Logout {
+
+}
+
+.uploadButton {
+    margin-top: 30px;
+}
+
+.RecentSection{
+    border: 1px solid lightgrey;
+    padding: 0 40px 0 40px;
+    width: 55%;
+}
+
+.HomeTitle{
+    position: relative;
+    left: 0px;
+    width: fit-content;
+    padding: 10px 0 10px 0;
+}
+.RecentTitle{
+    position: relative;
+    left: 0px;
+    width: auto;
+    padding: 0px 0 5px 0;
+    line-height: 22px;
+    font-size: 14px;
+    border-width: thin;
+    color: #637282;
+    border-bottom: 1px solid lightslategrey;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 25px;
+
+}
+
+.RecentImages.MuiGridListTile-imgFullHeight-26 {
+    height: 50px;
+    width: 50px;
+}
+
+.GridList ul {
+    display: inherit;
+}
+
+.MuiGridList-root-23 li {
+    height: 50px !important;
+    width: 50px!important;
+}
+
+
+.RecentItem {
+    width: 100%;
+    text-align: left;
+    padding: 10px 0 10px 0;
+    color: #3d464d;
+    font-size: 14px;
+    line-height: 24px;
+    border-bottom: 1px solid lightgrey;
+    border-width: thin;
+}
+
+.LeftSection {
+    width: 20%;
+    background-color: #F7F9FA;
+    position: relative;
+    min-height: 465px;
+}
+
+.RightSection{
+    width: 25%;
+}
+
+img.recentImage {
+    height: 25px;
+    padding: 0 10px 0 5px;
+}
+
+span.Download {
+    border: 1px solid lightgrey;
+    border-width: thin;
+    padding: 0px 10px 2px 10px;
+    float: right;
+    color: black;
+    border-radius: .25rem;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.LeftHandTitle {
+    text-align: left;
+    font-size: 14px;
+    padding: 20px 0px 5px 20px;
+    color: #637282;
+}
+
+.aboutInputTitle{
+    padding: 10px 0 10px 0;
+    margin-bottom: 7px;
+}
+
+.footer.closeButton {
+    position: absolute;
+    font-size: 14px;
+    color: #00B7FF;
+    top: 25px;
+    right: 25px;
+}
+
+.ModalTitle
+{
+    font-weight: 500;
+    font-size: 14px;
+    position: relative;
+    float: left;
+    display: inline-block;
+    border-bottom: 1px solid lightgrey;
+    border-width: thin;
+    width: 100%;
+    text-align: left;
+    padding: 10px 0 10px 0;
+    margin-bottom: 10px;
+
+}
+
+.ModalFileTitle {
+    border-bottom: 1px solid lightgrey;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 0px 0 10px 0;
+}
+
+.ModalMessage .alert {
+    width: 300px;
+    margin-left: -100px;
+}
+
+.btn-tertiary{
+    border-color: #0070E0;
+    background-color: transparent;
+    color: #0070E0;
+    font-size: 12px;
+}
+
+button.btn.btn-tertiary.btn-upload {
+    background-color: #0070E0;
+    color: white;
+    width: 260px;
+    font-size: 14px;
+}
+
+.btn-newfolder{
+    margin-top: 30px;
+    width:140px;
+}
+
+div.BacktoRoot {
+    color: #007bff;
+    float: left;
+    display: inline-block;
+    font-size: 14px;
+}
+
+div.BacktoRoot:hover
+{
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+span.SharedFolderlables {
+    font-size: 14px;
+    float: left;
+}
+
+span.createdbycolumn {
+    display: inline-block;
+    width: 100px;
+    left: 680px;
+    color: #637282;
+    position: absolute;
+    font-size: 12px;
+}
+
+.membersOfGroup {
+    text-align: initial;
+    color: #637282;
+    font-size: 15px;
+    border-bottom: 1px solid;
+    padding: 5px 0 5px 0px;
+}
+
+.MembersList {
+    font-size: 14px;
+    padding: 0 0 0px 0;
+}
