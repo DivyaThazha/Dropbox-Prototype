@@ -75,7 +75,7 @@ Create following topics in Kafka:
 ## Screenshots
 
 - Home Page
-![alt text](https://github.com/DivyaThazha/CMPE273_Lab2_Dropbox/reactlogin/Images/screenshot1.png)
+![alt text](https://github.com/DivyaThazha/CMPE273_Lab2_Dropbox/blob/master/reactlogin/Images/screenshot1.png)
 
 - Groups
-![alt text](https://github.com/DivyaThazha/CMPE273_Lab2_Dropbox/reactlogin/Images/screenshot2.png)
+![alt text](https://github.com/DivyaThazha/CMPE273_Lab2_Dropbox/blob/master/reactlogin/Images/screenshot2.png)
